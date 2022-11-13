@@ -75,7 +75,7 @@ app.post("/uploaded", function (req, res, next) {
         } else {
             // SUCCESS, image successfully uploaded
             res.render("uploaded", {
-                url: "https://directshare.herokuapp.com/uploads?q=" + lastFileID,
+                url: "https://jaksclouds.herokuapp.com/uploads?q=" + lastFileID,
             });
         }
     });
